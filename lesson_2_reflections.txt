@@ -1,0 +1,12 @@
+Question:
+
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer:
+Initializing a repository creates a hidden .git file. This file holds META data about the repository but does not necessarily need to beseen by the user.
+
+Question:
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Answer:
+The staging area is an intermediary between working directory and commiting a repository... It offers the ability to add certain files to a commit rather than all the the file in the working directory.
