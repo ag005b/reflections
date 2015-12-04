@@ -1,0 +1,42 @@
+This a file containing reflective thoughts and notes from the version control module of the Front-End Develope Nanodegree program.
+
+Question 1:
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Answer:
+Veiwing a diff easily and quickly pointed out all the differences between to the two files (any changes, any typos etc). Making it very effecient to debug, locate, and rectify.
+
+Qustion:
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer:
+Being able to have different versions, allows you to have access to code that may have been mistakenly deleted.. or you may be able to revert to working code if your updates/changes are not useful.
+
+Question:
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Answer:manually doing so allows you to dictate how effeciently and timely you save your work... Automatic saving can save unfinshed coding and can be problematic in the long run.
+
+Question:
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer:
+Possibly to see all the files link/grouped together and to keep track of all the changes in those files that are linked together 
+
+Question:
+How can you use the commands git log and git diff to view the history of files?
+
+Answer:
+git log is used to get the commit IDs and git diff is used to compare the commit IDs
+
+Question:
+How might using version control make you more confident to make changes that could break something?
+
+Answer:
+Because if you have a working copy then you could always revert to an older working version just in the event you break something.
+
+Question:
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer:
+Would try using Git to make changes to commits and compare differences in different versions of commits.
