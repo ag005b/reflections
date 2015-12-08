@@ -1,0 +1,3 @@
+When would you want to create a remote repository rather than keeping all your work local?
+
+When you might be ready for the piblic to be be able to view and make revisions to your work.
