@@ -1,3 +1,25 @@
+Question:
 When would you want to create a remote repository rather than keeping all your work local?
 
+Answer:
 When you might be ready for the piblic to be be able to view and make revisions to your work.
+
+Question:
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Answer:
+After a change or addition of a file on github.. That way you local directory and github directory will be the same.
+
+Question:
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Answer:
+Branches happen on a single repository.
+Cloning involves taking an existing repository and making oine just like it. THe original repository can either be on a remote or a local repository. 
+Forking is cloning a repostiory from Github onto Github.. only used on Github.
+
+Question: 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Answer:
+That way if you have to merge/pull/fetch you always have a commit that is an ancestor to the tip of the branch.
