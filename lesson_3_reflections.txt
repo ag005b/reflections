@@ -23,3 +23,18 @@ What is the benefit of having a copy of the last known state of the remote store
 
 Answer:
 That way if you have to merge/pull/fetch you always have a commit that is an ancestor to the tip of the branch.
+
+Question:
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Answer:
+You could probably collaborate by saving multiple files on your own and emailing with specific comments as to the changes. it would be harder because you will have to make sure nothing is missed andyou would need constant and great communication evenytime something is ammended or modified.
+
+Question:
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Answer:
+You might want to make changes if you want to create a new feature and have others test and modify before implementing it in production.. creating a new branch can be a good way to collaborate.
+
+Notes:
+You just saw that the workflow when making changes in a separate branch is more complicated than working directly in master, especially when you need to stay up-to-date with changes others are making. Rather than simply pulling and pushing, you need to pull changes into your local master branch, merge the local master into your branch (different-oil, in our case), then push your branch to the remote before finally merging your branch into master, either locally or on GitHub.
